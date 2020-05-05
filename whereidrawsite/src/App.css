@@ -1,12 +1,20 @@
 /** @format */
 
 * {
-  background-color: rgb(217, 226, 235);
   text-decoration: none;
+  color: black;
+  background-color: rgb(217, 226, 235);
+  /* background-image: url("/src//components/background.jpg"); */
+}
+
+.home {
+  padding: 10px;
+  margin: 10px;
+  position: fixed;
 }
 
 .homeTitle {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Roboto", serif;
   font-size: 150px;
   margin: 0px;
   line-height: 0.9em;
@@ -15,7 +23,7 @@
 }
 
 .homeTitle:hover {
-  color: white;
+  color: rgb(217, 226, 235);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   transition-duration: 0.5s;
@@ -29,4 +37,20 @@
   text-indent: 1em;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 #000,
     1px 1px 0 white;
+}
+
+.navigation {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.p {
+  font-family: "Roboto Thin 100", sans-serif;
+  color: black;
+}
+
+.p:hover {
+  font-family: "Roboto", sans-serif;
 }

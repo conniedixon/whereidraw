@@ -5,18 +5,18 @@ import { Link } from "@reach/router";
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className='navigation'>
       <Link to='/' key='Home'>
-        <p>Home</p>
+        <p className='p'>Home</p>
       </Link>
       <Link to='/about' key='About'>
-        <p>About</p>
+        <p className='p'>About</p>
       </Link>
       <Link to='/contact' key='Contact'>
-        <p>Contact</p>
+        <p className='p'>Contact</p>
       </Link>
       <Link to='portfolio' key='Portfolio'>
-        <p>Portfolio</p>
+        <p className='p'>Portfolio</p>
       </Link>
     </nav>
   );
