@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/** @format */
+
+* {
+  background-color: rgb(217, 226, 235);
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeTitle {
+  font-family: "Libre Baskerville", serif;
+  font-size: 150px;
+  margin: 0px;
+  line-height: 0.9em;
+  transition-duration: 0.5s;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homeTitle:hover {
   color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  transition-duration: 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeSubtitle {
+  font-family: "Sacramento", cursive;
+  font-size: 100px;
+  line-height: 0em;
+  margin: 0px;
+  text-indent: 1em;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 #000,
+    1px 1px 0 white;
 }
