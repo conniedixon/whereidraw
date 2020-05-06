@@ -5,7 +5,7 @@ import { Link } from "@reach/router";
 
 const Home = () => {
   return (
-    <span>
+    <span className='home'>
       <Link to='/portfolio'>
         <h1 className='homeTitle'>Ricky {<div />}BUTCHER</h1>
       </Link>
