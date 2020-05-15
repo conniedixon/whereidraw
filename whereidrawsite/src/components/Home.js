@@ -9,8 +9,7 @@ const Home = () => {
       <Link to='/portfolio'>
         <h1 className='homeTitle'>Ricky {<div />}BUTCHER</h1>
       </Link>
-
-      <p>
+      <p className={"p"}>
         Hello, my name is Ricky and I'm a freelance illustrator living in Leeds,
         UK. I create fantasy and surrealist artwork, combining elements you
         would never see together in real life to achieve thought-provoking

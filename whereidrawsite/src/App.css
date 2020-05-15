@@ -11,9 +11,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* margin: 40px; */
-  padding: 20px;
-  /* padding-top: 3em; */
+  padding: 15px;
+  margin: 5px;
   border-color: red;
   border-width: 1em;
   border-style: solid;
@@ -23,7 +22,6 @@
   font-family: "Roboto", serif;
   font-size: 19vw;
   margin: 0px;
-  /* padding-right: 20px; */
   line-height: 0.9em;
   transition-duration: 0.5s;
   color: black;
@@ -37,15 +35,6 @@
   transition-duration: 0.5s;
 }
 
-.homeSubtitle {
-  font-family: "Sacramento", cursive;
-
-  margin: 0px;
-  text-indent: 1em;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 #000,
-    1px 1px 0 white;
-}
-
 .navigation {
   display: flex;
   padding: 10px;
@@ -55,11 +44,25 @@
   border-color: green;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Thin 100", sans-serif;
+  padding: 10px;
+}
+
 .p {
   font-family: "Roboto Thin 100", sans-serif;
   color: black;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
-.p:hover {
-  font-family: "Roboto", sans-serif;
+.footer-p {
+  font-family: "Roboto Thin 100", sans-serif;
+  font-size: 10px;
+  line-height: 0px;
+  margin: 6px;
 }
