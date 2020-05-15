@@ -8,22 +8,22 @@
 }
 
 .home {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  /* background-image: url("./components/background.jpg"); */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* margin: 40px; */
+  padding: 20px;
+  /* padding-top: 3em; */
   border-color: red;
   border-width: 1em;
   border-style: solid;
 }
 
 .homeTitle {
-  grid-area: 3 / 2 / 5 / 5;
   font-family: "Roboto", serif;
-  font-size: 150px;
+  font-size: 19vw;
   margin: 0px;
+  /* padding-right: 20px; */
   line-height: 0.9em;
   transition-duration: 0.5s;
   color: black;
@@ -38,10 +38,8 @@
 }
 
 .homeSubtitle {
-  grid-area: 4 / 3 / 5 / 4;
   font-family: "Sacramento", cursive;
-  font-size: 100px;
-  line-height: 0em;
+
   margin: 0px;
   text-indent: 1em;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 #000,
